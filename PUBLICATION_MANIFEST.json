@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "d19a3a6b38e31f0ee388b2fe728e95e5fa09924ff2b15508c55ddb7e75e686d8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 500,
+      "sha256": "49ed4eaf72a6939af5ea23f27265524380a98b206e1805b5146e07e0da948f1a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1056,
+      "sha256": "d11f47c929898fc21422ba497bdee527de6acfa16983373f9bd0251527d1d07e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3387,
+      "sha256": "4b786139fc9bb55b5aee4b0f11876e5a92f84907fdd4e7272c103e535995fc8b"
+    },
+    {
+      "path": "SAMPLE_ALLOW_RESULT.json",
+      "bytes": 2078,
+      "sha256": "8c55d46ed6e4c5d553c41d40aa55ee70a79985fe853195e4a2894685f8b54d2a"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 818,
+      "sha256": "56eac9848721da9f37514b2311e49eca72fe84716671d2d5378e1316c0ab29b9"
+    },
+    {
+      "path": "THREAT_MODEL.md",
+      "bytes": 1885,
+      "sha256": "45608700bfa604a99d124d6f71caee2dcb40ae85a427a8dd70ad977559999f03"
+    },
+    {
+      "path": "cli.js",
+      "bytes": 845,
+      "sha256": "4f17968c1177509977a11fd500315775267b0174b38cc8177d96b69e7fdcec1e"
+    },
+    {
+      "path": "config/example-policy.json",
+      "bytes": 473,
+      "sha256": "5ab8848718d7afe3b5148e69a58cd9eb776168ebff27371ae0d4246df4f14373"
+    },
+    {
+      "path": "fixtures/builders.js",
+      "bytes": 2907,
+      "sha256": "2af0dfbf180a9af99d535181b2e8981545b0d89721b4f3715325ae4b5d2d1578"
+    },
+    {
+      "path": "fixtures/system_transfer_allow.json",
+      "bytes": 429,
+      "sha256": "14b5ef740127fbc91b58f125245954096ec67e1ca465181821f4ac2feb06fd94"
+    },
+    {
+      "path": "fixtures/system_transfer_block.json",
+      "bytes": 429,
+      "sha256": "9680bbf6f6112e5903e9789632d40556b1ecf91b20e70749ad9802fd727ea528"
+    },
+    {
+      "path": "fixtures/token_set_authority.json",
+      "bytes": 338,
+      "sha256": "16f4e0b66b149a884698ee0329f59e7e18b0e8dcace0ece8f7df5fcca361d32b"
+    },
+    {
+      "path": "fixtures/token_transfer_checked_block.json",
+      "bytes": 511,
+      "sha256": "7f4b44555a7a049994aad837c2c4d4663740039a8da8c2bb6ea288f7d3e36558"
+    },
+    {
+      "path": "fixtures/unknown_program.json",
+      "bytes": 294,
+      "sha256": "8d2ca978fce6b0177b1ac5413be5e6c59cac5a49eef0b390b611f071c803a0ef"
+    },
+    {
+      "path": "fixtures/version0_system_transfer.json",
+      "bytes": 433,
+      "sha256": "e4b5fd7cc174a221b3d2a8f76044793fd0ce1434bb2800e2a91b4c00b6288c15"
+    },
+    {
+      "path": "package.json",
+      "bytes": 388,
+      "sha256": "8989a2531dc6273d08f00c5414b879372593434bc8db7c29acc63f426f0dd6db"
+    },
+    {
+      "path": "src/analyze.js",
+      "bytes": 2450,
+      "sha256": "3c8abbb49be3ced2ae507ce4ae20aabb0533c205011cc765e858f7f5e6992ddc"
+    },
+    {
+      "path": "src/base58.js",
+      "bytes": 1719,
+      "sha256": "b24b440c885e9ab88dc07eb04817f7c3121ebb09dd22fb42266354f7761d5cb8"
+    },
+    {
+      "path": "src/decoders.js",
+      "bytes": 3916,
+      "sha256": "82c93c15739eb277f2d0709052fa45b5b39b7a2f010187bf211762c3958a28fb"
+    },
+    {
+      "path": "src/policy.js",
+      "bytes": 4436,
+      "sha256": "446ed077829074e44dd64dfaf66da0c8cb2c16260df209f62826397f69f571ff"
+    },
+    {
+      "path": "src/server.js",
+      "bytes": 2125,
+      "sha256": "f3e0ace63003e9b0e5be36b300a027f0e044956c5a74bd8eaa610a499834387b"
+    },
+    {
+      "path": "src/shortvec.js",
+      "bytes": 662,
+      "sha256": "635ada9c00fdd70bf6c8e5a07572123cc7f948e1cac12b1d5aaef3311bf3db29"
+    },
+    {
+      "path": "src/simulate.js",
+      "bytes": 2051,
+      "sha256": "b9af44a891e70ebdab34a33b728de08951b76433fd609d07c56872551f01b60a"
+    },
+    {
+      "path": "src/transaction.js",
+      "bytes": 4680,
+      "sha256": "12eb16b53444509ec4eef96795a6d32b5e401231c64fb48feff1b744328a2c83"
+    },
+    {
+      "path": "test/acceptance.test.js",
+      "bytes": 4604,
+      "sha256": "9ab9d0405f98993d2bdddcacfee5d4ed57f9dc1950dff93ed662bb3cd7ac3df8"
+    },
+    {
+      "path": "tools/verify-no-signing.js",
+      "bytes": 821,
+      "sha256": "d4ad141124484e24ee4341e13e1627e132209f4bc26b9664eed62bc474b31f37"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 1677,
+      "sha256": "29f43d42d25e9d63bb07c7d01f1821e0220734c334fb72c3420e887c9ab45572"
+    }
+  ]
+}

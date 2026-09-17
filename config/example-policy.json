@@ -1,0 +1,16 @@
+{
+  "policyVersion": "example-1",
+  "maxSolSpendLamports": "100000000",
+  "maxTokenAmountRaw": "1000000",
+  "requireRecipientAllowlist": false,
+  "recipientAllowlist": [],
+  "recipientNotAllowed": "BLOCK",
+  "unknownProgram": "REVIEW",
+  "unresolvedLookup": "REVIEW",
+  "authorityChange": "BLOCK",
+  "sensitiveTokenInstruction": "REVIEW",
+  "simulationFailure": "BLOCK",
+  "simulationRequired": false,
+  "simulationMissing": "REVIEW",
+  "signatureCountMismatch": "BLOCK"
+}

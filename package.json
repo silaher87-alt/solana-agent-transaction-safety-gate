@@ -1,0 +1,13 @@
+{
+  "name": "solana-agent-transaction-safety-gate",
+  "version": "0.1.0",
+  "description": "Read-only pre-signing safety gate for unsigned Solana transactions",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node src/server.js",
+    "verify:no-signing": "node tools/verify-no-signing.js"
+  },
+  "engines": {"node": ">=20"},
+  "license": "MIT"
+}

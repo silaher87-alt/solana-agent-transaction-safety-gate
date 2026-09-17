@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0",
+  "decision": "ALLOW",
+  "reasons": [],
+  "policy": {
+    "policyVersion": "example-1",
+    "maxSolSpendLamports": "100000000",
+    "maxTokenAmountRaw": "1000000",
+    "requireRecipientAllowlist": false,
+    "recipientAllowlist": [],
+    "recipientNotAllowed": "BLOCK",
+    "unknownProgram": "REVIEW",
+    "unresolvedLookup": "REVIEW",
+    "authorityChange": "BLOCK",
+    "sensitiveTokenInstruction": "REVIEW",
+    "simulationFailure": "BLOCK",
+    "simulationRequired": false,
+    "simulationMissing": "REVIEW",
+    "signatureCountMismatch": "BLOCK"
+  },
+  "transaction": {
+    "fingerprintSha256": "b8a06874334d7ce0fa9679c9c298804c55c62beda5d0c8b9bf1d46c34148ab10",
+    "version": "legacy",
+    "rawLength": 215,
+    "signatureCount": 1,
+    "header": {
+      "numRequiredSignatures": 1,
+      "numReadonlySignedAccounts": 0,
+      "numReadonlyUnsignedAccounts": 1
+    },
+    "signatureCountMatchesHeader": true,
+    "recentBlockhash": "11111111111111111111111111111111",
+    "staticAccountKeys": [
+      "5BT282kAX3ugZfg8epFGawwthf58sok3EVj5UyGzJPR",
+      "96kARVkkpM8pevBZx9AZTii8rsGowVZbeAP8s1sjJEC",
+      "11111111111111111111111111111111"
+    ],
+    "addressTableLookups": [],
+    "unresolvedLookupAddressCount": 0
+  },
+  "summary": {
+    "instructionCount": 1,
+    "totalSolLamports": "50000000",
+    "totalSol": 0.05,
+    "tokenTransferCount": 0,
+    "unknownProgramCount": 0,
+    "sensitiveInstructionCount": 0
+  },
+  "instructions": [
+    {
+      "index": 0,
+      "programId": "11111111111111111111111111111111",
+      "accounts": [
+        "5BT282kAX3ugZfg8epFGawwthf58sok3EVj5UyGzJPR",
+        "96kARVkkpM8pevBZx9AZTii8rsGowVZbeAP8s1sjJEC"
+      ],
+      "accountIndexes": [
+        0,
+        1
+      ],
+      "recognized": true,
+      "type": "SYSTEM_TRANSFER",
+      "sensitive": false,
+      "source": "5BT282kAX3ugZfg8epFGawwthf58sok3EVj5UyGzJPR",
+      "destination": "96kARVkkpM8pevBZx9AZTii8rsGowVZbeAP8s1sjJEC",
+      "lamports": "50000000",
+      "sol": 0.05
+    }
+  ],
+  "simulation": {
+    "status": "not_requested"
+  }
+}
