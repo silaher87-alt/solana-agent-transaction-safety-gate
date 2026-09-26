@@ -141,5 +141,6 @@
       "bytes": 1677,
       "sha256": "29f43d42d25e9d63bb07c7d01f1821e0220734c334fb72c3420e887c9ab45572"
     }
-  ]
+  ],
+  "note": "This manifest records the original MVP publication set. Grant-readiness documentation and CI are intentionally excluded until merged and a new publication manifest is generated."
 }
